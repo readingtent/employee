@@ -5,10 +5,10 @@ import streamlit as st
 # ✅ Use st.secrets instead of environment variables
 def get_connection():
     return pymysql.connect(
-        host=st.secrets["DB_HOST"],
-        user=st.secrets["DB_USER"],
-        password=st.secrets["DB_PASSWORD"],
-        database=st.secrets["DB_NAME"],
+        host="yamabiko.proxy.rlwy.net",
+        user="root",
+        password="lqWTCoHBUeLAWwGiUgqFZmoIlEKnJBfq",
+        database="railway",
         cursorclass=pymysql.cursors.DictCursor
     )
 
