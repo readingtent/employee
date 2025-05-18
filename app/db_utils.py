@@ -4,15 +4,19 @@ import streamlit as st
 
 # ✅ Use st.secrets instead of environment variables
 def get_connection():
-    return pymysql.connect(
-        host="http://yamabiko.proxy.rlwy.net",
-        user="root",
-        password="lqWTCoHBUeLAWwGiUgqFZmoIlEKnJBfq",
-        database="railway",
-        port=int("3306"),
+    try:
+        return pymysql.connect(
+            host=st.secrets["DB_HOST"],
+            user=st.secrets["DB_USER"],
+            password=st.secrets["DB_PASSWORD"],
+            database=st.secrets["DB_NAME"],
+            port=int(st.secrets["DB_PORT"]),  # Important!
+            cursorclass=pymysql.cursors.DictCursor
+        )
+    except Exception as e:
+        st.error(f"Database connection failed: {e}")
+        raise
 
-        cursorclass=pymysql.cursors.DictCursor
-    )
 
 ## For Filtering the Employees
 def call_filter_employees(role=None, location=None, include_inactive=True):
