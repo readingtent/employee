@@ -5,10 +5,10 @@ import streamlit as st
 
 def get_connection():
     return pymysql.connect(
-        host=st.secrets["nozomi.proxy.rlwy.net"],
-        user=st.secrets["root"],
-        password=st.secrets["bGEGgSwiPSNKtJqPpMkTIkfbMrKxvtRN"],
-        database=st.secrets["railway"],
+        host=st.secrets["db_host"],
+        user=st.secrets["db_user"],
+        password=st.secrets["db_password"],
+        database=st.secrets["db_name"],
         cursorclass=pymysql.cursors.DictCursor
     )
 
