@@ -119,6 +119,8 @@ streamlit run app/main.py
 
 ![image](https://github.com/user-attachments/assets/81f3cd49-0b77-4759-8a3a-167f53fbb462)
 
+![image](https://github.com/user-attachments/assets/a2aff6a1-be5c-44bf-9101-12d7b9d6d31c)
+
 
 ![image](https://github.com/user-attachments/assets/6c9853a7-005e-4501-a0a3-4459609b9f97)
 
