@@ -9,9 +9,9 @@ def get_connection():
         user=st.secrets["db_user"],
         password=st.secrets["db_password"],
         database=st.secrets["db_name"],
+        ssl={'ssl': {}},  # This enables basic SSL support
         cursorclass=pymysql.cursors.DictCursor
     )
-
 
 # ✅ For Filtering the Employees
 def call_filter_employees(role=None, location=None, include_inactive=True):
