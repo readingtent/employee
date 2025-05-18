@@ -26,7 +26,7 @@ An interactive HR analytics tool built as part of a technical case study for Tec
 ### 📂 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/employee-compensation-tool.git
+git clone https://github.com/anshulraj17/employee-compensation-tool.git
 cd employee-compensation-tool
 ```
 
