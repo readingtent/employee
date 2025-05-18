@@ -5,7 +5,7 @@ import streamlit as st
 # ✅ Use st.secrets instead of environment variables
 def get_connection():
     return pymysql.connect(
-        host="mysql.railway.internal",
+        host="mysql://root:lqWTCoHBUeLAWwGiUgqFZmoIlEKnJBfq@yamabiko.proxy.rlwy.net:11091/railway",
         user="root",
         password="lqWTCoHBUeLAWwGiUgqFZmoIlEKnJBfq",
         database="railway",
