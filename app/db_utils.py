@@ -9,6 +9,8 @@ def get_connection():
         user="root",
         password="lqWTCoHBUeLAWwGiUgqFZmoIlEKnJBfq",
         database="railway",
+        port="11091",
+
         cursorclass=pymysql.cursors.DictCursor
     )
 
