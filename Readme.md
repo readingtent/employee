@@ -33,8 +33,9 @@ cd employee-compensation-tool
 ### 🧱 2. Set Up the MySQL Database
 
 1. Open your MySQL client (Workbench, DBeaver, CLI)
+   * `create a database with name "techsolve_hr"`
 2. Run the following in order:
-
+    
    * `sql/create_tables.sql`
    * `sql/insert_roles_locations.sql`
    * `sql/insert_employees.sql`
