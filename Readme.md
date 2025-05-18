@@ -82,6 +82,9 @@ streamlit run app/main.py
 ![image](https://github.com/user-attachments/assets/a94ed15e-ba12-4299-928a-0c4662b9efbc)
 
 
+
+![image](https://github.com/user-attachments/assets/a2de719f-a1d9-4f93-9683-53abe6684ace)
+
 ---
 
 ### 🧠 2. Group Employees by Years of Experience
@@ -91,6 +94,10 @@ streamlit run app/main.py
 * Bar chart + table for easy analysis
 
 ➡️ Fulfilled using: filtered data + `value_counts()` logic
+
+![image](https://github.com/user-attachments/assets/310a819e-f5e4-448b-88b5-5bf248210fb2)
+
+![image](https://github.com/user-attachments/assets/8ca89a0e-8b2b-4cbb-a4f7-bc5cb96d5339)
 
 ---
 
@@ -102,6 +109,18 @@ streamlit run app/main.py
 * Visual bar chart comparison (interactive)
 
 ➡️ Fulfilled via sidebar logic + `apply()` function on filtered DataFrame
+![image](https://github.com/user-attachments/assets/265e4f2c-9638-49b9-9573-08c40ac24e87)
+
+
+
+![image](https://github.com/user-attachments/assets/00a8760f-89e1-442e-88ed-4feb6c1cc680)
+
+
+
+![image](https://github.com/user-attachments/assets/81f3cd49-0b77-4759-8a3a-167f53fbb462)
+
+
+![image](https://github.com/user-attachments/assets/6c9853a7-005e-4501-a0a3-4459609b9f97)
 
 ---
 
@@ -111,18 +130,9 @@ streamlit run app/main.py
 * Includes filters and updated compensation if simulation applied
 
 ➡️ Fulfilled via `st.download_button` using Pandas `.to_csv()`
+![image](https://github.com/user-attachments/assets/27a9e40c-dfb2-469e-9244-22a51a610106)
 
----
 
-## 🖼️ Screenshots (Optional)
-
-> You may include screenshots in a `/screenshots` folder and embed below using:
-
-```md
-![Dashboard](screenshots/dashboard.png)
-```
-
----
 
 ## 📬 Submitted By:
 
