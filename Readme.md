@@ -49,7 +49,7 @@ Create a `.env` file in the root directory:
 
 ```
 DB_HOST=localhost
-DB_USER=root
+DB_USER=yourusername
 DB_PASSWORD=yourpassword
 DB_NAME=techsolve_hr
 ```
