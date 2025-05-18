@@ -1,19 +1,24 @@
+
 import pymysql
 import pandas as pd
-import streamlit as st
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 
+## For making Database connection with MYSQL
 def get_connection():
     return pymysql.connect(
-        host=st.secrets["db_host"],
-        user=st.secrets["db_user"],
-        password=st.secrets["db_password"],
-        database=st.secrets["db_name"],
-        ssl={'ssl': {}},  # This enables basic SSL support
+        host=os.getenv("DB_HOST"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        database=os.getenv("DB_NAME"),
         cursorclass=pymysql.cursors.DictCursor
     )
 
-# ✅ For Filtering the Employees
+
+## For Filtering the Employees
 def call_filter_employees(role=None, location=None, include_inactive=True):
     connection = get_connection()
     try:
@@ -25,7 +30,7 @@ def call_filter_employees(role=None, location=None, include_inactive=True):
         connection.close()
 
 
-# ✅ For Adding Experience
+## For Adding Experience
 def call_experience_bands():
     connection = get_connection()
     try:
@@ -37,7 +42,7 @@ def call_experience_bands():
         connection.close()
 
 
-# ✅ For simulating the increase
+## For simulating the increase
 def simulate_global_increment(percent):
     connection = get_connection()
     try:
