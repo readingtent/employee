@@ -78,6 +78,10 @@ streamlit run app/main.py
 
 ➡️ Fulfilled in: `main.py > call_filter_employees()` and main dashboard
 
+
+![image](https://github.com/user-attachments/assets/a94ed15e-ba12-4299-928a-0c4662b9efbc)
+
+
 ---
 
 ### 🧠 2. Group Employees by Years of Experience
