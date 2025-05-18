@@ -91,7 +91,7 @@ streamlit run app/main.py
 
 * Analyze employee counts by experience bands (e.g., 0–1, 1–2, 3–5 years)
 * Optional: filter breakdown by role/location
-* Bar chart + table for easy analysis
+* Bar chart for easy analysis
 
 ➡️ Fulfilled using: filtered data + `value_counts()` logic
 
