@@ -119,10 +119,11 @@ streamlit run app/main.py
 
 ---
 
-## 📬 Contact
+## 📬 Submitted By:
 
-For questions or collaboration, reach out via GitHub or email.
+Name - Anshul Mishra
+Email - Anshulraj17@gmail.com
 
 ---
 
-> © 2024 TechSolve Case Study – Developed with care and curiosity.
+> © 2025 TechSolve Case Study 
